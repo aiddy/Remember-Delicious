@@ -14,3 +14,6 @@ A little Python script to post links to [Del.icio.us](http://delicious.com). Sim
 
 * Uses [Requests](http://docs.python-requests.org/en/latest/) for HTTP stuff
 
+## License
+
+MIT License. See [license.txt](license.txt) for details.

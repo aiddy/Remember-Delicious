@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Python script to post a link to delicious
 import getpass
 import sys
@@ -37,7 +38,7 @@ r = requests.put(call,
 if r.status_code == 200:
 	print "sumbitted okay"
 else:
-	print "error submitting. status code: " + r.status_code 
+	print "error submitting. status code: " + str(r.status_code) 
 		
 
 
